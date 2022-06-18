@@ -8,7 +8,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ExplosionBox
   - Water
   - UI
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: Pers
     uniqueID: 1557972705
+    locked: 0
+  - name: Water
+    uniqueID: 3824324859
     locked: 0
