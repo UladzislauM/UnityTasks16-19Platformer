@@ -10,7 +10,16 @@ public class ExplosionOnTrigger : MonoBehaviour
     {
         if(collision.attachedRigidbody)
         {
-            gameObject.GetComponent<PointEffector2D>().Set;
+            trigger.GetComponent<PointEffector2D>().enabled = true;
+            Debug.Log("yeee");
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.attachedRigidbody)
+        {
+            trigger.GetComponent<PointEffector2D>().enabled = false;
+            Debug.Log("nooo");
         }
     }
 }

@@ -5743,6 +5743,7 @@ GameObject:
   - component: {fileID: 1536049957}
   - component: {fileID: 1536049959}
   - component: {fileID: 1536049958}
+  - component: {fileID: 1536049960}
   m_Layer: 0
   m_Name: TriggerBoxExp
   m_TagString: Untagged
@@ -5843,6 +5844,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1536049960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536049956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac56ff1c9d996148a324fbd9def2d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trigger: {fileID: 1643314391}
 --- !u!1 &1555404399
 GameObject:
   m_ObjectHideFlags: 0
@@ -6746,7 +6760,6 @@ GameObject:
   - component: {fileID: 1643314397}
   - component: {fileID: 1643314396}
   - component: {fileID: 1643314395}
-  - component: {fileID: 1643314394}
   - component: {fileID: 1643314393}
   m_Layer: 3
   m_Name: ExspDitan
@@ -6790,19 +6803,6 @@ PointEffector2D:
   m_ForceMode: 0
   m_Drag: 0
   m_AngularDrag: 0
---- !u!114 &1643314394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643314391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aac56ff1c9d996148a324fbd9def2d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trigger: {fileID: 1536049956}
 --- !u!50 &1643314395
 Rigidbody2D:
   serializedVersion: 4
@@ -7387,7 +7387,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1814147300}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.192, y: 0.91, z: 0}
+  m_LocalPosition: {x: 0.192, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
