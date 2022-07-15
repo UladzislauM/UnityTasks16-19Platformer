@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Damageble
   layers:
   - Default
   - TransparentFX
@@ -11,7 +12,7 @@ TagManager:
   - ExplosionBox
   - Water
   - UI
-  - 
+  - Ground
   - 
   - 
   - 
@@ -50,9 +51,18 @@ TagManager:
   - name: Ground
     uniqueID: 710761749
     locked: 0
+  - name: Enemys
+    uniqueID: 1470311591
+    locked: 0
   - name: Pers
     uniqueID: 1557972705
     locked: 0
   - name: Water
     uniqueID: 3824324859
+    locked: 0
+  - name: UI
+    uniqueID: 2100527761
+    locked: 0
+  - name: Bullet
+    uniqueID: 2021011587
     locked: 0
